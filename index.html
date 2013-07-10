@@ -1,79 +1,218 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en" class="no-js">
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Iconhovereffects : " />
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Simple Icon Hover Effects with CSS Transitions and Animations</title>
+		<meta name="description" content="Simple Icon Hover Effects with CSS Transitions and Animations">
+		<meta name="keywords" content="icons, hover, round, circular, transition, animation, css3">
+		<meta name="author" content="Codrops">
+		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="css\default.css">
+		<link rel="stylesheet" type="text/css" href="css\component.css">
+		<script src="js\modernizr.custom.js"></script>
+		<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7243260-2']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+	</head>
+	<body>
+		<div class="container">
+			<!-- Top Navigation -->
+			<div class="codrops-top clearfix">
+				<a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Development/PseudoElementsAnimationsTransitions/"><span>Previous Demo</span></a>
+				<span class="right"><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=15265"><span>Back to the Codrops Article</span></a></span>
+			</div>
+			<header>
+				<h1>Icon Hover Effects <span>Simple hover effects for circular icons</span></h1>	
+				<nav id="codrops-demos" class="codrops-demos">
+					<a href="#set-1">1</a>
+					<a href="#set-2">2</a>
+					<a href="#set-3">3</a>
+					<a href="#set-4">4</a>
+					<a href="#set-5">5</a>
+					<a href="#set-6">6</a>
+					<a href="#set-7">7</a>
+					<a href="#set-8">8</a>
+					<a href="#set-9">9</a>
+				</nav>
+			</header>
+			<section id="set-1">
+				<div class="hi-icon-wrap hi-icon-effect-1 hi-icon-effect-1a">
+					<a href="#set-1" class="hi-icon hi-icon-mobile">Mobile</a>
+					<a href="#set-1" class="hi-icon hi-icon-screen">Desktop</a>
+					<a href="#set-1" class="hi-icon hi-icon-earth">Partners</a>
+					<a href="#set-1" class="hi-icon hi-icon-support">Support</a>
+					<a href="#set-1" class="hi-icon hi-icon-locked">Security</a>
+				</div>
+				<div class="hi-icon-wrap hi-icon-effect-1 hi-icon-effect-1b">
+					<a href="#set-1" class="hi-icon hi-icon-mobile">Mobile</a>
+					<a href="#set-1" class="hi-icon hi-icon-screen">Desktop</a>
+					<a href="#set-1" class="hi-icon hi-icon-earth">Partners</a>
+					<a href="#set-1" class="hi-icon hi-icon-support">Support</a>
+					<a href="#set-1" class="hi-icon hi-icon-locked">Security</a>
+				</div>
+			</section>
+			<section id="set-2">
+				<div class="hi-icon-wrap hi-icon-effect-2 hi-icon-effect-2a">
+					<a href="#set-2" class="hi-icon hi-icon-cog">Settings</a>
+					<a href="#set-2" class="hi-icon hi-icon-clock">Time</a>
+					<a href="#set-2" class="hi-icon hi-icon-videos">Videos</a>
+					<a href="#set-2" class="hi-icon hi-icon-list">List</a>
+					<a href="#set-2" class="hi-icon hi-icon-refresh">Refresh</a>
+				</div>
+				<div class="hi-icon-wrap hi-icon-effect-2 hi-icon-effect-2b">
+					<a href="#set-2" class="hi-icon hi-icon-cog">Settings</a>
+					<a href="#set-2" class="hi-icon hi-icon-clock">Time</a>
+					<a href="#set-2" class="hi-icon hi-icon-videos">Videos</a>
+					<a href="#set-2" class="hi-icon hi-icon-list">List</a>
+					<a href="#set-2" class="hi-icon hi-icon-refresh">Refresh</a>
+				</div>
+			</section>
+			<section id="set-3">
+				<div class="hi-icon-wrap hi-icon-effect-3 hi-icon-effect-3a">
+					<a href="#set-3" class="hi-icon hi-icon-images">Images</a>
+					<a href="#set-3" class="hi-icon hi-icon-pencil">Edit</a>
+					<a href="#set-3" class="hi-icon hi-icon-link">Link</a>
+					<a href="#set-3" class="hi-icon hi-icon-mail">Mail</a>
+					<a href="#set-3" class="hi-icon hi-icon-location">Location</a>
+				</div>
+				<div class="hi-icon-wrap hi-icon-effect-3 hi-icon-effect-3b">
+					<a href="#set-3" class="hi-icon hi-icon-images">Images</a>
+					<a href="#set-3" class="hi-icon hi-icon-pencil">Edit</a>
+					<a href="#set-3" class="hi-icon hi-icon-link">Link</a>
+					<a href="#set-3" class="hi-icon hi-icon-mail">Mail</a>
+					<a href="#set-3" class="hi-icon hi-icon-location">Location</a>
+				</div>
+			</section>
+			<section id="set-4">
+				<div class="hi-icon-wrap hi-icon-effect-4 hi-icon-effect-4a">
+					<a href="#set-4" class="hi-icon hi-icon-archive">Archive</a>
+					<a href="#set-4" class="hi-icon hi-icon-chat">Chat</a>
+					<a href="#set-4" class="hi-icon hi-icon-bookmark">Bookmarks</a>
+					<a href="#set-4" class="hi-icon hi-icon-user">User</a>
+					<a href="#set-4" class="hi-icon hi-icon-contract">Contact</a>
+				</div>
+				<div class="hi-icon-wrap hi-icon-effect-4 hi-icon-effect-4b">
+					<a href="#set-4" class="hi-icon hi-icon-archive">Archive</a>
+					<a href="#set-4" class="hi-icon hi-icon-chat">Chat</a>
+					<a href="#set-4" class="hi-icon hi-icon-bookmark">Bookmarks</a>
+					<a href="#set-4" class="hi-icon hi-icon-user">User</a>
+					<a href="#set-4" class="hi-icon hi-icon-contract">Contact</a>
+				</div>
+				<p>Note that the dashed border on a round pseudo-element (border-radius: 50%) does not work in FF 21.0</p>
+			</section>
+			<section id="set-5">
+				<div class="hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a">
+					<a href="#set-5" class="hi-icon hi-icon-mobile">Mobile</a>
+					<a href="#set-5" class="hi-icon hi-icon-screen">Desktop</a>
+					<a href="#set-5" class="hi-icon hi-icon-earth">Partners</a>
+					<a href="#set-5" class="hi-icon hi-icon-support">Support</a>
+					<a href="#set-5" class="hi-icon hi-icon-locked">Security</a>
+				</div>
+				<div class="hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5b">
+					<a href="#set-5" class="hi-icon hi-icon-mobile">Mobile</a>
+					<a href="#set-5" class="hi-icon hi-icon-screen">Desktop</a>
+					<a href="#set-5" class="hi-icon hi-icon-earth">Partners</a>
+					<a href="#set-5" class="hi-icon hi-icon-support">Support</a>
+					<a href="#set-5" class="hi-icon hi-icon-locked">Security</a>
+				</div>
+				<div class="hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5c">
+					<a href="#set-5" class="hi-icon hi-icon-mobile">Mobile</a>
+					<a href="#set-5" class="hi-icon hi-icon-screen">Desktop</a>
+					<a href="#set-5" class="hi-icon hi-icon-earth">Partners</a>
+					<a href="#set-5" class="hi-icon hi-icon-support">Support</a>
+					<a href="#set-5" class="hi-icon hi-icon-locked">Security</a>
+				</div>
+				<div class="hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5d">
+					<a href="#set-5" class="hi-icon hi-icon-mobile">Mobile</a>
+					<a href="#set-5" class="hi-icon hi-icon-screen">Desktop</a>
+					<a href="#set-5" class="hi-icon hi-icon-earth">Partners</a>
+					<a href="#set-5" class="hi-icon hi-icon-support">Support</a>
+					<a href="#set-5" class="hi-icon hi-icon-locked">Security</a>
+				</div>
+			</section>
+			<section id="set-6">
+				<div class="hi-icon-wrap hi-icon-effect-6">
+					<a href="#set-6" class="hi-icon hi-icon-cog">Settings</a>
+					<a href="#set-6" class="hi-icon hi-icon-support">Support</a>
+					<a href="#set-6" class="hi-icon hi-icon-star">Fav</a>
+					<a href="#set-6" class="hi-icon hi-icon-contract">Contract</a>
+					<a href="#set-6" class="hi-icon hi-icon-refresh">Refresh</a>
+				</div>
+			</section>
+			<section id="set-7">
+				<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7a">
+					<a href="#set-7" class="hi-icon hi-icon-cog">Settings</a>
+					<a href="#set-7" class="hi-icon hi-icon-clock">Time</a>
+					<a href="#set-7" class="hi-icon hi-icon-videos">Videos</a>
+					<a href="#set-7" class="hi-icon hi-icon-list">List</a>
+					<a href="#set-7" class="hi-icon hi-icon-refresh">Refresh</a>
+				</div>
+				<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+					<a href="#set-7" class="hi-icon hi-icon-cog">Settings</a>
+					<a href="#set-7" class="hi-icon hi-icon-clock">Time</a>
+					<a href="#set-7" class="hi-icon hi-icon-videos">Videos</a>
+					<a href="#set-7" class="hi-icon hi-icon-list">List</a>
+					<a href="#set-7" class="hi-icon hi-icon-refresh">Refresh</a>
+				</div>
+			</section>
+			<section id="set-8">
+				<div class="hi-icon-wrap hi-icon-effect-8">
+					<a href="#set-8" class="hi-icon hi-icon-archive">Archive</a>
+					<a href="#set-8" class="hi-icon hi-icon-chat">Chat</a>
+					<a href="#set-8" class="hi-icon hi-icon-bookmark">Bookmarks</a>
+					<a href="#set-8" class="hi-icon hi-icon-user">User</a>
+					<a href="#set-8" class="hi-icon hi-icon-contract">Contact</a>
+				</div>
+			</section>
+			<section id="set-9">
+				<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+					<a href="#set-9" class="hi-icon hi-icon-images">Images</a>
+					<a href="#set-9" class="hi-icon hi-icon-pencil">Edit</a>
+					<a href="#set-9" class="hi-icon hi-icon-link">Link</a>
+					<a href="#set-9" class="hi-icon hi-icon-mail">Mail</a>
+					<a href="#set-9" class="hi-icon hi-icon-location">Location</a>
+				</div>
+				<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9b">
+					<a href="#set-9" class="hi-icon hi-icon-images">Images</a>
+					<a href="#set-9" class="hi-icon hi-icon-pencil">Edit</a>
+					<a href="#set-9" class="hi-icon hi-icon-link">Link</a>
+					<a href="#set-9" class="hi-icon hi-icon-mail">Mail</a>
+					<a href="#set-9" class="hi-icon hi-icon-location">Location</a>
+				</div>
+			</section>
+		</div><!-- /container -->
+		<script>
+			var hash = window.location.hash,
+				current = 0,
+				demos = Array.prototype.slice.call( document.querySelectorAll( '#codrops-demos > a' ) );
+			
+			if( hash === '' ) hash = '#set-1';
+			setDemo( demos[ parseInt( hash.match(/#set-(\d+)/)[1] ) - 1 ] );
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+			demos.forEach( function( el, i ) {
+				el.addEventListener( 'click', function() { setDemo( this ); } );
+			} );
 
-    <title>Iconhovereffects</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/truongduongmau/IconHoverEffects">View on GitHub</a>
-
-          <h1 id="project_title">Iconhovereffects</h1>
-          <h2 id="project_tagline"></h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/truongduongmau/IconHoverEffects/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/truongduongmau/IconHoverEffects/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Iconhovereffects maintained by <a href="https://github.com/truongduongmau">truongduongmau</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+			function setDemo( el ) {
+				var idx = demos.indexOf( el );
+				if( current !== idx ) {
+					var currentDemo = demos[ current ];
+					currentDemo.className = currentDemo.className.replace(new RegExp("(^|\\s+)" + 'current-demo' + "(\\s+|$)"), ' ');
+				}
+				current = idx;
+				el.className = 'current-demo'; 
+			}
+		</script>
+				<!-- For the side ad -->
+		<script src="http://tympanus.net/codrops/adpacks/demoad.js"></script>
+	</body>
 </html>
